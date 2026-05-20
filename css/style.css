@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 7px 7%;
-    font-size: 18px; 
+    font-size: 15px; 
     border-bottom: 1px solid #3f2e18;
 }
 .area1 i:hover{
@@ -66,7 +66,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 7%;
-    font-size: 20px;
+    font-size: 18px;
 }
 .right-area2 { 
     display: flex;
@@ -75,7 +75,7 @@
 .left-area2{
     padding: 0;
     width: 170px; 
-    height: 90px;
+    height: 77px;
 }
 .left-area2 img{
     width: 100%; 
@@ -105,7 +105,7 @@ nav ul li a{
     border: 1px solid #3f2e187a;
     border-radius: 10px;
     position: absolute;
-    top: 100%;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%) scale(0);
     display: flex; 
@@ -191,12 +191,12 @@ nav ul li a{
 .area3{
     text-align: center;
     background-color: #777c6d;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 .area3 p{
     letter-spacing: 1.1px;
     color: beige;
-    font-size: 19px;
+    font-size: 17px;
 }
 .area3 a{
     border-bottom: 2px solid #3f2e18;
