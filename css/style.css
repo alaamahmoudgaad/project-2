@@ -74,7 +74,7 @@
 }
 .left-area2{
     padding: 0;
-    width: 170px; 
+    width: 140px; 
     height: 77px;
 }
 .left-area2 img{
@@ -373,8 +373,9 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
 }
-.selected_trend{
-    color: #415347;
+.trending-nav li .selected_trend{
+    color: #a58058;
+    font-weight: 700;
     border-bottom: 4px solid #3f2e18;
     padding-bottom: 31.7px;
 }
@@ -601,27 +602,28 @@ nav ul li a{
 }
 
 .news-container{
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 100px;  
+    grid-template-columns: repeat(3,30%);
+    gap: 5%;  
     color: #3f2e18; 
 }
 .news-item p{
-    font-size: 19px;
+    font-size: 17.6px;
     margin: 15px 0;
     line-height: 1.5;
+    letter-spacing: 1.1px;
     opacity: 0.8;
 }
 .news-item h3{
-    font-size: 25px;
+    font-size: 23px;
 }
 .news-item:hover h3{
     color: #415347;
 }
 .news-item a{
-    font-size: 22px;
+    font-size: 20px;
     color: #3f2e18; 
     transition: all 0.3s;
     display: inline-block;
@@ -674,18 +676,18 @@ nav ul li a{
 
 .icon-item h3{
     margin: 16px 0;
-    font-size: 25px;
+    font-size: 22px;
 
 }
 .icon-item p{
-    font-size: 19px;
+    font-size: 17px;
 }
 
 /* ______________________footer____________________ */
 
 footer{
     width: 100%;
-    height: 570px;
+    height: 420px;
     margin-top: 100px;
     background-color: #777C6D;
     color: beige;
@@ -702,28 +704,28 @@ footer{
 }
 
 .footer-subscribe h2{
-    font-size: 29px;
+    font-size: 27px;
     color: #3f2e18;
 }
 .footer-subscribe p{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
     letter-spacing: 1.3px;
 }
 
 .subscribe-form input{
-    padding: 15px;
+    padding: 12px;
     width: 260px;
 }
 .subscribe-form input:focus{
     outline: none;
 }
 .subscribe-form input::placeholder {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .subscribe-form button{
-    padding: 14px;
+    padding: 12px;
     background-color: #C1BAA1;
     border: none;
     transition: all 0.3s;
@@ -761,7 +763,7 @@ footer{
 .footer-body h3{
     margin-bottom: 20px;
     letter-spacing: 1.1px;
-    font-size: 25px;
+    font-size: 23px;
     color: #3f2e18;
 }
 
@@ -770,7 +772,7 @@ footer{
     text-decoration: none;
     line-height: 1.5;
     color: beige;
-    font-size: 19px;
+    font-size: 17px;
     transition: all 0.3s;
     letter-spacing: 1.1px;
 
@@ -784,7 +786,7 @@ footer{
     text-align: center;
 }
 .Copyright p{
-    font-size: 20px;
+    font-size: 18px;
     color: #3f2e18;
     font-weight: 900;
 }
